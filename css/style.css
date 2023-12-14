@@ -1,0 +1,53 @@
+p,
+h1 {
+    color: #db9850 !important;
+}
+
+body {
+    background-image: url('../image/Jenn_QuoteBanner_1800x900_311bba85-89fb-45dd-8930-441d4835e8f5_1600x.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+h1 {
+    font-size: 80px !important;
+    font-weight: 700 !important;
+    font-family: "Sofia", sans-serif;
+    text-shadow: 8px 4px 3px #7d7d7d;
+}
+
+p {
+    font-size: 16px !important;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.text {
+    border: rgba(85, 85, 83, 0.9) 4px solid;
+    border-radius: 20px;
+    background-color: rgba(56, 56, 56, 0.3);
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.buttonn {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#quote {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    right: 10%;
+    font-family: 'Lobster Two', sans-serif;
+    font-size: 25px !important;
+    font-weight: 500;
+
+}
